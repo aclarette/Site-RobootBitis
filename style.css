@@ -1,4 +1,5 @@
 body{
+    font-family: "Poppins", sans-serif;
     margin: 0%;
     margin-bottom: 0%;
 }
@@ -15,11 +16,11 @@ body{
 }
 .separador{
     width: 100%;
-    height: 20vh; 
+    height: 10vh; 
 }
 .carrosel{
     background-color: #0A5786;
-    height:50vh;
+    height:40vh;
     margin: auto;
     width: 70%;
     border-radius: 50px;
@@ -30,11 +31,11 @@ body{
     width:100%;
     position: fixed;
 }
-.produto1{
+.produto{
     background-color: #2475A8;
-    height:50vh;
-    width:70%;
-    margin:auto;
+    height:41vh;
+    margin: 0 10%;
+    padding-top: 5%;
 }
 .botao{
     background-color: #FFB246;
@@ -48,4 +49,8 @@ body{
     font-size: 70px;
     color: #FFB246;
     margin-bottom: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
